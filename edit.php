@@ -38,7 +38,6 @@ if(isset($_SESSION['validUser'])&&!empty($_GET['id'])){
 
             <?php echo($dbUser['user_gender']=='female')?"checked":"" ?>
             >
-
             <br>
             <label>SKills</label>
             <?php
